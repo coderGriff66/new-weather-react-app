@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderDate from "./HeaderDate";
 
 import './App.css';
 import "./styles.css";
@@ -8,6 +9,7 @@ export default function App() {
     <div className="App">
      <div className="container">
         <div className="WeatherApp">
+          <HeaderDate />
 
 
 
