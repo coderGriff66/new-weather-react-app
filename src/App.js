@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderDate from "./HeaderDate";
+import SearchEngine from "./SearchEngine";
 
 import './App.css';
 import "./styles.css";
@@ -10,6 +11,7 @@ export default function App() {
      <div className="container">
         <div className="WeatherApp">
           <HeaderDate />
+          <SearchEngine defaultCity="Detroit" />
 
 
 
