@@ -1,0 +1,21 @@
+body {
+  background-color: #6f8193;
+}
+
+.App .Container {
+    /*background: radial-gradient(#f1f1b9, #f1e83b, #ffe37c, #f3d47f, #fffcd3);*/
+  max-width: 750px;
+  max-height: 100%;
+  margin: auto;
+}
+
+.App .WeatherApp {
+  margin: auto;
+  max-width: 700px;
+  background: url("https://images.pexels.com/photos/2627945/pexels-photo-2627945.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=700");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: rgb(192, 117, 12) solid 6px;
+  border-radius: 8px;
+}
